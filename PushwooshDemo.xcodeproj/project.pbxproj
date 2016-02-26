@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CECAE0C1C7EB146006C652A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECAE0B1C7EB146006C652A /* main.m */; };
+		4CECAE0F1C7EB146006C652A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECAE0E1C7EB146006C652A /* AppDelegate.m */; };
+		4CECAE121C7EB146006C652A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CECAE111C7EB146006C652A /* ViewController.m */; };
+		4CECAE151C7EB146006C652A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CECAE131C7EB146006C652A /* Main.storyboard */; };
+		4CECAE171C7EB146006C652A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CECAE161C7EB146006C652A /* Assets.xcassets */; };
+		4CECAE1A1C7EB146006C652A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CECAE181C7EB146006C652A /* LaunchScreen.storyboard */; };
+		4CECAE221C7EB6AE006C652A /* Pushwoosh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CECAE211C7EB6AE006C652A /* Pushwoosh.framework */; };
+		4CECAE241C7EB93E006C652A /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CECAE231C7EB93E006C652A /* libstdc++.tbd */; };
+		4CECAE261C7EB944006C652A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CECAE251C7EB944006C652A /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CECAE071C7EB146006C652A /* PushwooshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushwooshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CECAE0B1C7EB146006C652A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CECAE0D1C7EB146006C652A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CECAE0E1C7EB146006C652A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CECAE101C7EB146006C652A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CECAE111C7EB146006C652A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CECAE141C7EB146006C652A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CECAE161C7EB146006C652A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CECAE191C7EB146006C652A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CECAE1B1C7EB146006C652A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CECAE211C7EB6AE006C652A /* Pushwoosh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pushwoosh.framework; sourceTree = "<group>"; };
+		4CECAE231C7EB93E006C652A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4CECAE251C7EB944006C652A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CECAE041C7EB146006C652A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CECAE261C7EB944006C652A /* libz.tbd in Frameworks */,
+				4CECAE241C7EB93E006C652A /* libstdc++.tbd in Frameworks */,
+				4CECAE221C7EB6AE006C652A /* Pushwoosh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CECADFE1C7EB146006C652A = {
+			isa = PBXGroup;
+			children = (
+				4CECAE251C7EB944006C652A /* libz.tbd */,
+				4CECAE231C7EB93E006C652A /* libstdc++.tbd */,
+				4CECAE091C7EB146006C652A /* PushwooshDemo */,
+				4CECAE081C7EB146006C652A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CECAE081C7EB146006C652A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CECAE071C7EB146006C652A /* PushwooshDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CECAE091C7EB146006C652A /* PushwooshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4CECAE211C7EB6AE006C652A /* Pushwoosh.framework */,
+				4CECAE0D1C7EB146006C652A /* AppDelegate.h */,
+				4CECAE0E1C7EB146006C652A /* AppDelegate.m */,
+				4CECAE101C7EB146006C652A /* ViewController.h */,
+				4CECAE111C7EB146006C652A /* ViewController.m */,
+				4CECAE131C7EB146006C652A /* Main.storyboard */,
+				4CECAE161C7EB146006C652A /* Assets.xcassets */,
+				4CECAE181C7EB146006C652A /* LaunchScreen.storyboard */,
+				4CECAE1B1C7EB146006C652A /* Info.plist */,
+				4CECAE0A1C7EB146006C652A /* Supporting Files */,
+			);
+			path = PushwooshDemo;
+			sourceTree = "<group>";
+		};
+		4CECAE0A1C7EB146006C652A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CECAE0B1C7EB146006C652A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CECAE061C7EB146006C652A /* PushwooshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CECAE1E1C7EB146006C652A /* Build configuration list for PBXNativeTarget "PushwooshDemo" */;
+			buildPhases = (
+				4CECAE031C7EB146006C652A /* Sources */,
+				4CECAE041C7EB146006C652A /* Frameworks */,
+				4CECAE051C7EB146006C652A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushwooshDemo;
+			productName = PushwooshDemo;
+			productReference = 4CECAE071C7EB146006C652A /* PushwooshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CECADFF1C7EB146006C652A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = TheAppGuruz;
+				TargetAttributes = {
+					4CECAE061C7EB146006C652A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4CECAE021C7EB146006C652A /* Build configuration list for PBXProject "PushwooshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CECADFE1C7EB146006C652A;
+			productRefGroup = 4CECAE081C7EB146006C652A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CECAE061C7EB146006C652A /* PushwooshDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CECAE051C7EB146006C652A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CECAE1A1C7EB146006C652A /* LaunchScreen.storyboard in Resources */,
+				4CECAE171C7EB146006C652A /* Assets.xcassets in Resources */,
+				4CECAE151C7EB146006C652A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CECAE031C7EB146006C652A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CECAE121C7EB146006C652A /* ViewController.m in Sources */,
+				4CECAE0F1C7EB146006C652A /* AppDelegate.m in Sources */,
+				4CECAE0C1C7EB146006C652A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CECAE131C7EB146006C652A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CECAE141C7EB146006C652A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CECAE181C7EB146006C652A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CECAE191C7EB146006C652A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CECAE1C1C7EB146006C652A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CECAE1D1C7EB146006C652A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CECAE1F1C7EB146006C652A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gray Capo (4K8E332TH2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PushwooshDemo",
+				);
+				INFOPLIST_FILE = PushwooshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tag.PushwooshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b277c28e-4706-43d3-a96b-ff2ea3b92be3";
+			};
+			name = Debug;
+		};
+		4CECAE201C7EB146006C652A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gray Capo (4K8E332TH2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PushwooshDemo",
+				);
+				INFOPLIST_FILE = PushwooshDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tag.PushwooshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b277c28e-4706-43d3-a96b-ff2ea3b92be3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CECAE021C7EB146006C652A /* Build configuration list for PBXProject "PushwooshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CECAE1C1C7EB146006C652A /* Debug */,
+				4CECAE1D1C7EB146006C652A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CECAE1E1C7EB146006C652A /* Build configuration list for PBXNativeTarget "PushwooshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CECAE1F1C7EB146006C652A /* Debug */,
+				4CECAE201C7EB146006C652A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CECADFF1C7EB146006C652A /* Project object */;
+}
